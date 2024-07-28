@@ -1,0 +1,61 @@
+HELP.md
+/target/
+/bin
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+/test-output
+
+### VS Code ###
+.vscode/
+
+### python ###
+/scripts/.ipynb_checkpoints/
+/.apt_generated_tests/
+
+# Ignore Maven build files
+target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Maven wrapper files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Test output
+test-output/
+!.mvn/wrapper/maven-wrapper.jar
